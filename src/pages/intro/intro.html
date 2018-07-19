@@ -1,0 +1,64 @@
+<!--
+  Generated template for the IntroPage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>Intro</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+
+  <ion-slides pager>
+
+    <ion-slide class="slide_image">
+      <img src="assets/imgs/slide1.png" alt="">
+      <h2>Meu primeiro app no Ionic</h2>
+      <div>
+        <p>
+          Bem vindo ao meu primeiro app desenvolvido no Ionic.
+        </p>
+        <p>
+          Confira o que ele pode <strong>fazer</strong>.
+        </p>
+      </div>
+      <a class="slide_navLink" (click)="goToTabsPage()">Pular >></a>
+    </ion-slide>
+
+    <ion-slide class="slide_image">
+      <img src="assets/imgs/slide2.png" alt="">
+      <h2>Muitas funções</h2>
+      <div>
+        <p>
+          Você pode <strong>fazer</strong> muitas coisas nele.
+        </p>
+        <p>
+          Como por exemplo <strong>virar a página</strong> novamente. Tente para você ver.
+        </p>
+      </div>
+      <a class="slide_navLink" (click)="goToTabsPage()">Pular >></a>
+    </ion-slide>
+
+    <ion-slide class="slide_image">
+      <img src="assets/imgs/slide3.png" alt="">
+      <h2>Fim</h2>
+      <div>
+        <p>
+          Quer ver mais funções interessantes?
+        </p>
+        <p>
+            <strong>Vem comigo!</strong>
+        </p>
+      </div>
+      <a class="slide_navLink" (click)="goToTabsPage()">Continuar >></a>
+    </ion-slide>
+
+  </ion-slides>
+
+</ion-content>
